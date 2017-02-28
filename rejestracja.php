@@ -7,7 +7,7 @@
 <p>Formularz rejestracji nowego użytkownika</p>
 <?php
 echo <<<KONIEC
-<form>
+<form action= "dodaj_usera.php">
 imie: &nbsp; <input type="text" name="imie" value="" /><br />
 nazwisko: &nbsp; <input type="text" name="nazwisko" value=""/><br /> 
 login: &nbsp; <input type="text" name="login" value=""/><br />
